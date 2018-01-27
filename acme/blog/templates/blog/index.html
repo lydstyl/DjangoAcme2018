@@ -1,0 +1,13 @@
+<h1>blog ({{ posts|length }} posts)</h1>
+{% for post in posts %}
+        <article>
+            <h2>#{{ post.id }} - {{ post.title|upper }}</h2>
+            <p>{{ post.body|truncatewords:3 }}</p>
+            <p><a href="/blog/post/{{ post.id }}">Lire la suite</a></p>
+        </article>
+    {% if not forloop.last %}
+        <hr>
+    {% endif %}
+{% empty %}
+        <p>No post avalable</p>
+{% endfor %}
