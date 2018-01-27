@@ -1,3 +1,10 @@
-<h1>hello Cyriloup</h1>
+{% extends 'layouts/base.html' %}
+{% block title %}Acme home{% endblock %}
 
-<p>Je suis un serveur Django de test</p>
+{% block content %}
+    <h1>hello Cyriloup</h1>
+
+    <p>Je suis un serveur Django de test</p>
+
+    <a href="{% url 'blog:index' %}">go to blog index</a>
+{% endblock %}
