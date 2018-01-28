@@ -68,3 +68,19 @@ OBJECTIF
     créer un formulaire ?
 
     brancher au mysql existant ?
+
+
+https://devcenter.heroku.com/articles/deploying-python
+
+(venv) l@sque-ubu1604:~/Dropbox/Informatique/DJANGO/2018/acme$ pip freeze
+Django==2.0.1
+django-debug-toolbar==1.9.1
+django-extensions==1.9.9
+pkg-resources==0.0.0
+pytz==2017.3
+six==1.11.0
+sqlparse==0.2.4
+typing==3.6.4
+
+pour notre collaborateur il peut installer pip install -r requirements.txt
+
