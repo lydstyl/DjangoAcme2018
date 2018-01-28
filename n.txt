@@ -58,3 +58,13 @@ https://github.com/django-extensions/django-extensions
 pip install django-extensions
 
 https://django-debug-toolbar.readthedocs.io/en/stable/installation.html
+
+
+OBJECTIF
+    mettre en prod
+
+    afficher uniquement les posts de l'utilisateur ou si groupe admin alors afficher tous les posts
+    
+    créer un formulaire ?
+
+    brancher au mysql existant ?
